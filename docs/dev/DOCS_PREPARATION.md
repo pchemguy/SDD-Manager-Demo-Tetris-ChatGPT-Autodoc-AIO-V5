@@ -4,22 +4,27 @@
 
 - Mode: autodoc/onepass, explicitly requested by the user on 2026-10-24.
 - Scope: complete browser Tetris target from the user request; no later passes defined.
-- Approval basis: first PROJECT approval remains active; ARCHITECTURE through TASKS checkpoints are preapproved by autodoc selection. No implementation range is selected by document approval.
+- Approval basis: PROJECT approved by the user on 2026-10-24 at proposal d5d0ddb; ARCHITECTURE through TASKS checkpoints are preapproved by autodoc selection. No implementation range is selected by document approval.
 - Stop: after DOCS-008, before DOCS-009 package QC, documentation integration or implementation.
 - Tracking: enabled for preparation and implementation by existing root AGENTS.md. Git publication is authorized by the repository development request.
 - Reporting: Standard after explicit bootstrap; Minimal and Explicit profiles remain available.
 
 ## Scope source
 
-The user requests a classic playable baseline followed by hold, ghost, seven-bag, wall kicks, hard drop, selectable locking policies, conditional ghost visibility, penetrator bonuses and gameplay, six settings, and per-setting URL/cookie persistence. Publish a versioned GitHub release after each completed, verified, integrated implementation phase. The brief will retain the complete target and identify proposed interaction decisions before acceptance.
+The user requests a classic playable baseline followed by hold, ghost, seven-bag, wall kicks, hard drop, selectable locking policies, conditional ghost visibility, penetrator bonuses and gameplay, six settings, and per-setting URL/cookie persistence. Publish a versioned GitHub release after each completed, verified, integrated implementation phase. The accepted brief retains the complete target and approved interaction decisions.
 
 ## Decisions and document evidence
 
 | Task | Current evidence / decision basis |
 | --- | --- |
 | DOCS-001 | All four root guidance files retained byte for byte from initial commit 2bbb3c2d41fd91fa75d293d3b4fbd4d3750efeac. Initialization checks below passed. Checked task, this record and HANDOFF are submitted together. Publication and issue closure must be read back. |
-| DOCS-002 | Proposed PROJECT SHA-256 `663c709b8e03488ca780f0dffd173a29395b5c908e8a151d71049728ad79d517`; human acceptance pending. Scope/content review against the user seed and root policies passed; all requested capability groups covered, proposed assumptions explicit. Boundary decisions below remain proposals. DOCS-002 stays unchecked. |
-| DOCS-003–008 | Future document checkpoints preapproved by requested autodoc mode, subject to accepted PROJECT and required owner QC. |
+| DOCS-002 | Explicit human approval of published proposal d5d0ddbbedd193c252220292dbffec08cdc6a10f, received 2026-10-24; PROJECT bytes unchanged. PROJECT.md SHA-256 `663c709b8e03488ca780f0dffd173a29395b5c908e8a151d71049728ad79d517`. Submitted with owning checked task and this evidence; publication and issue closure require subsequent readback. |
+| DOCS-003 | Preapproved by autodoc selection; not yet authored or checked. |
+| DOCS-004 | Preapproved by autodoc selection; not yet authored or checked. |
+| DOCS-005 | Preapproved by autodoc selection; not yet authored or checked. |
+| DOCS-006 | Preapproved by autodoc selection; not yet authored or checked. |
+| DOCS-007 | Preapproved by autodoc selection; not yet authored or checked. |
+| DOCS-008 | Preapproved by autodoc selection; not yet authored or checked. |
 | DOCS-009 | Not selected; remains pending at the autodoc stop. |
 
 ## Initialization
@@ -39,7 +44,7 @@ Initialization commit ad20a3a was pushed and read back on design-docs/main befor
 
 ## Proposed gameplay decisions for approval
 
-These proposals resolve interactions absent from the initial description. Approval of this brief adopts them; they are not represented as requirements already supplied by the user.
+The user approved PROJECT and these linked interaction decisions on 2026-10-24. They are adopted decisions; the heading remains stable for the accepted PROJECT link. Their origin was the agent proposal, not the original seed.
 
 | Concern | Proposed rule and rationale |
 | --- | --- |
@@ -56,4 +61,4 @@ These proposals resolve interactions absent from the initial description. Approv
 
 ## Pending transitions
 
-Publish/read back the PROJECT proposal and present its exact state for human approval. Architecture and dependent authoring remain held. DOCS-002 issue #2 stays open; DOCS-003–009 have not started. Keep sdd-docs-main open. Subsequent publication is recoverable from Git readback; do not infer approval from a proposal commit.
+Publish/read back the DOCS-002 completion commit, then comment, close and read back issue #2. After verified publication and DOCS-002 closure/readback, continue DOCS-003 under existing autodoc preapproval.
