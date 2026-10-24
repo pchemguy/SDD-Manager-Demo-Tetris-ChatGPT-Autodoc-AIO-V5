@@ -19,7 +19,7 @@ The user requests a classic playable baseline followed by hold, ghost, seven-bag
 | --- | --- |
 | DOCS-001 | All four root guidance files retained byte for byte from initial commit 2bbb3c2d41fd91fa75d293d3b4fbd4d3750efeac. Initialization checks below passed. Checked task, this record and HANDOFF are submitted together. Publication and issue closure must be read back. |
 | DOCS-002 | Explicit human approval of published proposal d5d0ddbbedd193c252220292dbffec08cdc6a10f, received 2026-10-24; PROJECT bytes unchanged. PROJECT.md SHA-256 `663c709b8e03488ca780f0dffd173a29395b5c908e8a151d71049728ad79d517`. Submitted with owning checked task and this evidence; publication and issue closure require subsequent readback. |
-| DOCS-003 | Preapproved by autodoc selection; not yet authored or checked. |
+| DOCS-003 | Scoped autodoc preapproval; owner consistency/QC checks passed. ARCHITECTURE.md SHA-256 `f2a050f81fbaa464503dfab82caba415d1c62d95689ac17ee2790a8c25ce5bb1`. Submitted with owning checked task and this evidence; publication and issue closure require subsequent readback. |
 | DOCS-004 | Preapproved by autodoc selection; not yet authored or checked. |
 | DOCS-005 | Preapproved by autodoc selection; not yet authored or checked. |
 | DOCS-006 | Preapproved by autodoc selection; not yet authored or checked. |
@@ -61,4 +61,4 @@ The user approved PROJECT and these linked interaction decisions on 2026-10-24. 
 
 ## Pending transitions
 
-Publish/read back the DOCS-002 completion commit, then comment, close and read back issue #2. After verified publication and DOCS-002 closure/readback, continue DOCS-003 under existing autodoc preapproval.
+Publish/read back the DOCS-003 completion commit, then comment, close and read back issue #3. After verified publication and DOCS-003 closure/readback, continue DOCS-004 under existing autodoc preapproval.
