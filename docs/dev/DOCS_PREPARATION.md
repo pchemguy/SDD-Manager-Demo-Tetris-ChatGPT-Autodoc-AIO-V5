@@ -23,7 +23,7 @@ The user requests a classic playable baseline followed by hold, ghost, seven-bag
 | DOCS-004 | Scoped autodoc preapproval; owner consistency/QC checks passed. DECOMPOSITION.md SHA-256 `ff3fede63360e89c1e699fd4c184b6040eecc132d304d67358e53be9a83cee64`. Submitted with owning checked task and this evidence; publication and issue closure require subsequent readback. |
 | DOCS-005 | Scoped autodoc preapproval; owner consistency/QC checks passed. SPEC.md SHA-256 `dc01caa0d235dc652fc010adee4e344cf5afe1b00da8c4f78e06f6fa99f2a758`; GAMEPLAY.md SHA-256 `2295631398456fb128bb205457f6a1150509e3100fefc993840003817997fbe5`; CONFIGURATION.md SHA-256 `7d7510840291dbaeb9bc4bdc851ee5bf4e53639f97113de87b9498f4f8c0be40`; SPEC-REVIEW-REPORT.md SHA-256 `65fc5049d77c8b5460231344e0adfa0654692e60c056955a0795e69e0f24ba3b`. Submitted with owning checked task and this evidence; publication and issue closure require subsequent readback. |
 | DOCS-006 | Scoped autodoc preapproval; owner consistency/QC checks passed. PLAN.md SHA-256 `e6ca75662883aa3575033fa5dd6b599475d921dfca2fb592676e9fd684a41537`; PLAN-REVIEW-REPORT.md SHA-256 `504946af6e2ac1731719474ccdbd9a5c7b316231231d95e4b1ed64e2c1904352`. Submitted with owning checked task and this evidence; publication and issue closure require subsequent readback. |
-| DOCS-007 | Preapproved by autodoc selection; not yet authored or checked. |
+| DOCS-007 | Scoped autodoc preapproval; owner consistency/QC checks passed. layout.md SHA-256 `a5f9f371e8a381bf5c408981ff16b0780c9f14cdba8dc316acceaa772732c992`; PLAN-REVIEW-REPORT.md SHA-256 `e45921b3853622af2f0d3ed9b98a6094bb325c8425f0b942955e7445b7b9cb31`; AGENTS.md SHA-256 `8894147c3c21b5a73505b453d364cb815cc2efefd76675483011cee3b4f9f67b`. Submitted with owning checked task and this evidence; publication and issue closure require subsequent readback. |
 | DOCS-008 | Preapproved by autodoc selection; not yet authored or checked. |
 | DOCS-009 | Not selected; remains pending at the autodoc stop. |
 
@@ -65,4 +65,4 @@ The specification owner selected the deferred details within accepted scope: 10x
 
 ## Pending transitions
 
-Publish/read back the DOCS-006 completion commit, then comment, close and read back issue #6. After verified publication and DOCS-006 closure/readback, continue DOCS-007 under existing autodoc preapproval.
+Publish/read back the DOCS-007 completion commit, then comment, close and read back issue #7. After verified publication and DOCS-007 closure/readback, continue DOCS-008 under existing autodoc preapproval.

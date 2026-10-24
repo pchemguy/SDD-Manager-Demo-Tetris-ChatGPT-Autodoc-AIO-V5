@@ -43,3 +43,9 @@ Follow `sdd-manage`'s preparation and phase-activation workflows for required tr
 ## Project guidance
 
 Maintain project-specific navigation and validated setup/check commands here as they become established. Do not invent commands, paths, requirements or completion claims.
+
+## Project document navigation
+
+The browser Tetris project is defined by [PROJECT](docs/dev/PROJECT.md), [ARCHITECTURE](docs/dev/ARCHITECTURE.md), [DECOMPOSITION](docs/dev/DECOMPOSITION.md), [SPEC](docs/dev/SPEC.md), [PLAN](docs/dev/PLAN.md) and [layout](docs/dev/layout.md). Source and test locations are planned in layout; product implementation and validated setup/check commands do not exist yet. Current preparation control belongs to [DOCS_PREPARATION](docs/dev/DOCS_PREPARATION.md), with task definitions/checkoffs in [DOCS_TASKS](docs/dev/DOCS_TASKS.md).
+
+Read applicable nested instructions for selected paths. Preserve existing policy sections above. Recover the active workflow from HANDOFF and its linked owners before changing scope.

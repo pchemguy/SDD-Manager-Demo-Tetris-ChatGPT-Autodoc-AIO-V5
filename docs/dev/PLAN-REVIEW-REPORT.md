@@ -2,7 +2,7 @@
 
 ## Current gate
 
-State: Ready for strategy and dependent layout authoring. TASKS readiness is held until physical layout receives combined review. Reviewed PLAN SHA-256 `e6ca75662883aa3575033fa5dd6b599475d921dfca2fb592676e9fd684a41537`. No unresolved strategy findings. This report supplies no implementation acceptance or whole-package QC.
+State: Ready for combined PLAN/layout and dependent TASKS derivation after Revision 1 below. Reviewed PLAN SHA-256 `e6ca75662883aa3575033fa5dd6b599475d921dfca2fb592676e9fd684a41537`. No unresolved strategy findings. This report supplies no implementation acceptance or whole-package QC.
 
 ## Governing identities
 
@@ -39,3 +39,11 @@ All five groups fall in the 3–5 guidance; this numerical result was not used t
 No omission, invented feature, duplicate delivery ownership or impossible dependency was identified. All delivery milestones own review/testing/report exits and the conditional standalone-review rule; each special phase-review milestone has one outcome after all delivery milestone closures. The final phase includes TODO aggregation. Release placement follows verified integration and preserves failed/unknown publication gates.
 
 Physical placement is deliberately pending DOCS-007, not a strategy defect. Source allocation and executable task counts are not claimed checked here. No code/build/browser test was run; actual proof is scheduled at the capability boundaries. No confirmed correction cycle occurred.
+
+## Revision 1 — Combined physical-layout review
+
+The strategy source and governing SPEC/design identities are unchanged from the initial review. Reviewed layout SHA-256 `a5f9f371e8a381bf5c408981ff16b0780c9f14cdba8dc316acceaa772732c992`. No strategy finding was erased; the initial placement limitation is resolved by this additive review.
+
+Checked C1–C8 allocation against source/test/adapter ownership and every planned milestone. Geometry/source/landing/timing/session support phased gameplay without cyclic dependencies; app and UI consume snapshots/commands; settings pure codecs and side-effect adapters have explicit homes. Unit fixtures, actual browser checks, managed binary isolation, CI, static package/archive inspection, current docs and milestone/phase/final reports each have an owner. Planned paths are explicitly distinguished from existing files. Generated outputs and credentials are excluded from runtime assets and tracking when introduced.
+
+All 15 delivery milestones and five phase-review boundaries can be expressed in localized source/test/integration work. No unallocated architectural component, conflicting path owner, additional requirement or new phase was found. Existing root AGENTS instructions are preserved with additive links to real documents; setup commands remain unclaimed until implemented and validated. Local Markdown links, heading spacing, source identities and core dependency direction were checked. No installation/build/browser execution occurred. Combined gate: Ready; no unresolved confirmed issue or human exception.
