@@ -21,7 +21,7 @@ The user requests a classic playable baseline followed by hold, ghost, seven-bag
 | DOCS-002 | Explicit human approval of published proposal d5d0ddbbedd193c252220292dbffec08cdc6a10f, received 2026-10-24; PROJECT bytes unchanged. PROJECT.md SHA-256 `663c709b8e03488ca780f0dffd173a29395b5c908e8a151d71049728ad79d517`. Submitted with owning checked task and this evidence; publication and issue closure require subsequent readback. |
 | DOCS-003 | Scoped autodoc preapproval; owner consistency/QC checks passed. ARCHITECTURE.md SHA-256 `f2a050f81fbaa464503dfab82caba415d1c62d95689ac17ee2790a8c25ce5bb1`. Submitted with owning checked task and this evidence; publication and issue closure require subsequent readback. |
 | DOCS-004 | Scoped autodoc preapproval; owner consistency/QC checks passed. DECOMPOSITION.md SHA-256 `ff3fede63360e89c1e699fd4c184b6040eecc132d304d67358e53be9a83cee64`. Submitted with owning checked task and this evidence; publication and issue closure require subsequent readback. |
-| DOCS-005 | Preapproved by autodoc selection; not yet authored or checked. |
+| DOCS-005 | Scoped autodoc preapproval; owner consistency/QC checks passed. SPEC.md SHA-256 `dc01caa0d235dc652fc010adee4e344cf5afe1b00da8c4f78e06f6fa99f2a758`; GAMEPLAY.md SHA-256 `2295631398456fb128bb205457f6a1150509e3100fefc993840003817997fbe5`; CONFIGURATION.md SHA-256 `7d7510840291dbaeb9bc4bdc851ee5bf4e53639f97113de87b9498f4f8c0be40`; SPEC-REVIEW-REPORT.md SHA-256 `65fc5049d77c8b5460231344e0adfa0654692e60c056955a0795e69e0f24ba3b`. Submitted with owning checked task and this evidence; publication and issue closure require subsequent readback. |
 | DOCS-006 | Preapproved by autodoc selection; not yet authored or checked. |
 | DOCS-007 | Preapproved by autodoc selection; not yet authored or checked. |
 | DOCS-008 | Preapproved by autodoc selection; not yet authored or checked. |
@@ -59,6 +59,10 @@ The user approved PROJECT and these linked interaction decisions on 2026-10-24. 
 | Invalid settings | Reject invalid URL/cookie values per setting and fall through to the next valid source. Invalid explicit URL values do not overwrite valid cookies. Use the first occurrence of repeated query parameters; preserve unrelated parameters and the URL fragment. |
 | Defaults | Dynamic ghost, hard drop on, next preview on, hard drop follows general, full-interval general locking, hold on. |
 
+## Specification refinements
+
+The specification owner selected the deferred details within accepted scope: 10x20 visible board plus four hidden rows; explicit square shape grids and ordered wall kicks (no SRS compatibility claim); keyboard bindings; clear/drop scoring and gravity progression; canonical query/cookie values and 365-day cookie retention. R01–R13 and child acceptance own these details. No requested capability was removed. Storage failures retain in-memory play with destination-specific warnings. These are agent design refinements, not claimed verbatim user requirements.
+
 ## Pending transitions
 
-Publish/read back the DOCS-004 completion commit, then comment, close and read back issue #4. After verified publication and DOCS-004 closure/readback, continue DOCS-005 under existing autodoc preapproval.
+Publish/read back the DOCS-005 completion commit, then comment, close and read back issue #5. After verified publication and DOCS-005 closure/readback, continue DOCS-006 under existing autodoc preapproval.
